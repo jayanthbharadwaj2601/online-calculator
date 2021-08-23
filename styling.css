@@ -1,0 +1,110 @@
+#operators
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 45px;
+}
+body
+{
+    background-image: url("background.jpg");
+    overflow-x: hidden;
+}
+h1
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad
+{
+    width: 30%;
+    padding: 2% 4% 2% 4%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    background-color: rgb(219, 157, 22);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(78, 76, 76);
+}
+.inputdesign
+{
+    background-color: black;
+    padding: 4% 4% 4% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 3px 3px 3px rgb(78, 76, 76);
+    border-radius: 10px;
+}
+#ab
+{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.numflex
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.overallflex
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.ad1
+{
+    font-size: 25px;
+    padding: 4% 4% 4% 4%;
+    background-color: rgb(219, 157, 22);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(78, 76, 76);
+}
+#result
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 174, 255);
+    width: 15%;
+    word-wrap: break-word;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(78, 76, 76);
+    padding: 2% 2% 2% 2%;
+    
+}
+.positioning
+{
+    position: relative;
+    left: 40%;
+    top: 100px;
+}
+@media(max-width: 820px)
+{
+    .positioning
+{
+    position: relative;
+    left: 32%;
+    top: 10px;
+}   
+}
+@media(max-width: 500px)
+{
+    .positioning
+    {
+        position: relative;
+        left: 18%;
+        top: 100px;
+    } 
+
+}

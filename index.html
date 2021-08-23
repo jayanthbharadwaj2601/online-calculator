@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="*-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <h1>Online Calculator</h1>
+    <script src="script.js"></script>
+    <div class="positioning">
+    <div class="overallflex">
+    <div class="numflex">
+    <div class="inputdesign"><input type="text" id="ab"></div>
+    <div id="a1">
+    <button class="ad"onclick="n1(1)">1</button>
+    <button class="ad" onclick="n1(2)">2</button>
+    <button class="ad" onclick="n1(3)">3</button>
+    </div>
+    <div id="a2">
+        <button class="ad" onclick="n1(4)">4</button>
+        <button class="ad" onclick="n1(5)">5</button>
+        <button class="ad" onclick="n1(6)">6</button>
+    </div>
+    <div id="a3">
+        <button class="ad" onclick="n1(7)">7</button>
+        <button class="ad" onclick="n1(8)">8</button>
+        <button class="ad" onclick="n1(9)">9</button>
+    </div>
+    <div id="a4">
+        <button class="ad" onclick="n1('.')">.</button>
+        <button class="ad" onclick="n1(0)">0</button>
+        <button class="ad" onclick="compute()">=</button>
+    </div>
+    <div id="a5">
+        <button class="ad" onclick="n1('(')">(</button>
+        <button class="ad" onclick="n1(')')">)</button>
+        <button class="ad" onclick="del()">Del</button>
+    </div>
+    </div>
+    <div id="operators">
+        <button class="ad1" onclick="n1('+')">+</button>
+        <button class="ad1" onclick="n1('-')">-</button>
+        <button class="ad1" onclick="n1('*')">*</button>
+        <button class="ad1" onclick="n1('/')">/</button>
+    </div>
+    </div>
+    <p id="result">result:</p>
+    </div>
+
+</body>
+</html>
